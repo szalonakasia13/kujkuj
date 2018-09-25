@@ -8,6 +8,10 @@ def main(args):
     start = int(input("pobierz tą liczbę 1 helpppppp: "))
     stop = int(input("podaj liczbę 2: "))
     
+    while start >= stop: 
+          print("za mała druga liczba: ")
+    stop = int(input("pobierz ponownie drugą liczbę: "))
+    
     if start >= stop:
         print("żle mongole!: " )
         exit(0)
