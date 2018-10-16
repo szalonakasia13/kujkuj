@@ -1,0 +1,7 @@
+polecenia w git bash:
+
+pwd - drukuje aktualny katalog 
+
+cd kujkuj - przejście do podanego katalogu 
+
+git confing - list - wyświetla konfiguracje gita 
