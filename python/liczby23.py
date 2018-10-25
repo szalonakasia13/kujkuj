@@ -35,6 +35,9 @@ def liczby3():
                 print("{}{}{} ".format(i, j, k), end="")
                 ile = ile + 1 #zliczanie liczb 
     return ile 
+
     
 def main(args):
-    print ("\n\nLiczb 2 cyfrowych:", liczby 2 
+    print("\n\nLiczb 2 cyfrowych:", liczby2())
+    print("\n\nLiczba 3 cyfrowych:", liczby3())
+    return 0
